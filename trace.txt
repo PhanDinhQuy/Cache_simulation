@@ -1,0 +1,17 @@
+# Addresses with the same set index but different tags
+1 0x402000    # WRITE to L1 Data Cache (Set 40, Tag 0x0)
+9
+1 0x102000    # WRITE to L1 Data Cache (Set 40, Tag 0x1)
+9
+1 0x102000    # WRITE to L1 Data Cache (Set 40, Tag 0x2)
+9
+1 0x102000
+9
+1 0x302000
+9
+1 0x802000
+9
+1 0x702000  # WRITE to L1 Data Cache (Set 40, Tag 0x3)
+9
+1 0x102000
+9

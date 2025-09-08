@@ -1,0 +1,7 @@
+1 2000       # WRITE to L1 Data Cache (Miss)
+1 3000       # Write from L1 Data Cache (Miss)
+9            # PRINT Instruction Cache và Data Cache
+8            # RESET Instruction Cache và Data Cache
+9            # PRINT after reset (don’t have any data)
+1 2000       # WRITE to L1 Data Cache (Miss)
+9

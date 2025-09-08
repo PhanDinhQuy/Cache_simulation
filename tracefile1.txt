@@ -1,0 +1,8 @@
+# Test cache miss và hit cho Data Cache
+1 1000       # WRITE to L1 Data Cache (Miss)
+0 1000       # READ from L1 Data Cache (Hit)
+1 1000       # WRITE to L1 Data Cache (Hit)
+9
+# Test cache miss và hit cho Instruction Cache
+2 2000       # FETCH to L1 Instruction Cache (Miss)
+2 2000       # FETCH to L1 Instruction Cache (Hit)

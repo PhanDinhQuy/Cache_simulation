@@ -1,0 +1,10 @@
+2 10019d94    # Read request to L1 data cache (Store data to L1)
+1 00408e08      # Instruction fetch request to L1 instruction cache
+1 00508e08
+1 00608e08
+9
+3 00408e08      # Evict command for address 408ed4 (from L2 to L1)
+9
+3 10019d94    # Evict command for address 10019d94 (from L2 to L1)
+9
+

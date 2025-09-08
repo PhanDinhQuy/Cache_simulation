@@ -1,0 +1,10 @@
+# Addresses with the same set index but different tags
+1 0x2000    # WRITE to L1 Data Cache (Set 128, Tag 0x0)
+1 0x102000    # WRITE to L1 Data Cache (Set 128, Tag 0x5)
+1 0x302000    # WRITE to L1 Data Cache (Set 128, Tag 0x3)
+1 0x702000  # WRITE to L1 Data Cache (Set 128, Tag 0x7)
+9           # Print cache status
+1 0x502000  # Evict the line has the highest LRU
+9           # Print cache status
+0 0x702000  # Read for update LRU
+9           # Print cache status

@@ -1,0 +1,7 @@
+# Test write-through and write-back
+1 1000       # WRITE to L1 Data Cache (Miss, Write-through - First Write)
+9
+1 1000       # WRITE to L1 Data Cache (Hit, Mark as dirty)
+9
+1 1000       # WRITE to L1 Data Cache (Hit, Mark as dirty)
+9
